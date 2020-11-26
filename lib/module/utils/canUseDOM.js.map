@@ -1,0 +1,1 @@
+{"version":3,"sources":["canUseDOM.tsx"],"names":["canUseDOM","document","body"],"mappings":"AAAA,MAAMA,SAAS,GAAG,CAAC,EAAE,OAAOC,QAAP,KAAoB,WAApB,IAAmCA,QAAQ,CAACC,IAA9C,CAAnB;AAEA,eAAeF,SAAf","sourcesContent":["const canUseDOM = !!(typeof document !== 'undefined' && document.body);\n\nexport default canUseDOM;\n"]}
